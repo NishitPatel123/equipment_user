@@ -1,6 +1,6 @@
 import axios from "axios"
 import { getHeaders } from "../auth/authService"
-const BASE = "http://localhost:8000"
+const BASE = "https://equipment-backend-eklj.onrender.com"
 export const login = (d) => axios.post(`${BASE}/login`, d)
 export const signup = (d) => axios.post(`${BASE}/signup`, d)
 export const changePassword = (d) => axios.post(`${BASE}/changePassword`, d)
