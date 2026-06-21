@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getProfile, updateProfile, changePassword } from "../services/api"
-const BACKEND = "http://localhost:8000"
+const BACKEND = "https://equipment-user-n5bb.onrender.com"
 export default function Profile({ userData, setUserData }) {
   const [profile,setProfile]=useState(null); const [loading,setLoading]=useState(true); const [tab,setTab]=useState("info"); const [saving,setSaving]=useState(false); const [changing,setChanging]=useState(false); const [imgFile,setImgFile]=useState(null); const [preview,setPreview]=useState(null); const [form,setForm]=useState({name:"",phone:""}); const [passForm,setPassForm]=useState({newPassword:"",confirm:""})
   const inp={width:"100%",padding:"11px 14px",border:"1px solid #eee",borderRadius:6,fontSize:14,outline:"none"}

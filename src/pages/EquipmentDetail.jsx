@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getEquipmentDetails, placeBooking, myBookings, genOrderId, verifyPayment } from "../services/api"
 
-const BACKEND = "http://localhost:8000"
+const BACKEND = "https://equipment-user-n5bb.onrender.com"
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI"
 
 export default function EquipmentDetail({ isAuthenticated }) {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { getEquipment, getCategories } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://equipment-user-n5bb.onrender.com";
 
 export default function Equipment() {
   const [equipment, setEquipment] = useState([]);

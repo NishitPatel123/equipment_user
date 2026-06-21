@@ -9,7 +9,7 @@ import {
   addFeedback,
 } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://equipment-user-n5bb.onrender.com";
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI";
 
 export default function MyBookings() {

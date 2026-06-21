@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getCategories, getEquipment, getFeedbacks } from "../services/api";
 
-const BACKEND = "http://localhost:8000";
+const BACKEND = "https://equipment-user-n5bb.onrender.com";
 
 export default function Home() {
   const [categories, setCategories] = useState([]);

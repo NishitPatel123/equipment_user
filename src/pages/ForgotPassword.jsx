@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import axios from "axios"
-const B = "http://localhost:8000"
+const B = "https://equipment-user-n5bb.onrender.com"
 const inp = { width: "100%", padding: "11px 14px", border: "1px solid #eee", borderRadius: 6, fontSize: 14, outline: "none" }
 export default function ForgotPassword() {
   const [step,setStep]=useState(1); const [email,setEmail]=useState(""); const [otp,setOtp]=useState(""); const [newPass,setNewPass]=useState(""); const [confirm,setConfirm]=useState(""); const [loading,setLoading]=useState(false); const navigate=useNavigate()
